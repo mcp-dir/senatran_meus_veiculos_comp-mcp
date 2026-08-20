@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/senatran_meus_veiculos_comp-mcp",
+  "title": "SENATRAN: Meus Veículos - Completa",
+  "description": "SENATRAN: Meus Vehicles - Completa, official-source lookup. Platform-hosted, pay per query with prep",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/senatran_meus_veiculos_comp-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_senatran_meus_veiculos_comp"
+    }
+  ]
+}
